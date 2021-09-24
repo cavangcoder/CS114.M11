@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+k, x  = map(int, input().split())
+a = sorted(a, key = lambda v : (abs(v-x), v))
+print (" ".join(map(str,sorted(a[0:k]))))

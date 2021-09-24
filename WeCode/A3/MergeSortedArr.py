@@ -1,0 +1,5 @@
+input()
+a = list(map(int, input().split()))
+b = list(map(int, input().split()))
+ans = sorted(a+b)
+print(" ".join(map(str,ans)))
